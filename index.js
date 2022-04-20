@@ -36,7 +36,7 @@ for (var i = 0; i < 3; i++) {
     }, 1000);
   }
 
-  Q4.
+  //Q4.
 let l = 7;
 function rectangle(){
     let b = 8;
@@ -46,12 +46,12 @@ rectangle();
 
 
 //Q5.
-let count = 0;
+let n = 0;
 function Counter1(){
     for(let i=1;i<=10;i++){
-        count+=1;
+        n+=1;
     }
-    console.log(count);
+    console.log(n);
 }
 Counter1();
 
