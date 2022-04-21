@@ -46,14 +46,16 @@ rectangle();
 
 
 //Q5.
-let n = 0;
-function Counter1(){
-    for(let i=1;i<=10;i++){
-        n+=1;
-    }
-    console.log(n);
+let n = function(){
+    count=0;
+
+ d = function(){
+  console.log(`count is ${count+1}`);
 }
-Counter1();
+}
+n();
+d();
+d();
 
 //Q6.
 var a = 12;
